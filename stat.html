@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>安厨数据</title>
+	</head>
+	<link rel="stylesheet" href="static/css/reset.css" />
+	<link rel="stylesheet" href="static/css/iconfont.css" />
+
+	<body>
+		<header>
+			<img src="static/img/logo.png" />
+		</header>
+		<!--
+    	作者：beitafive@163.com
+    	时间：2018-06-08
+    	描述：nav
+    -->
+		<nav>
+			<div class="big-nav">
+				<i class="iconfont icon-left-copy"></i>&nbsp; 数据分析
+			</div>
+			<div class="big-small">
+				<i class="iconfont icon-shuju"></i>&nbsp;运营数据概览
+			</div>
+		</nav>
+		<!--
+    	作者：beitafive@163.com
+    	时间：2018-06-08
+    	描述：内容表格
+    -->
+		<aside>
+			<div class="aside-head">
+				<span>数据分析</span> / 运营数据概览
+			</div>
+			<div class="box">
+				<div id="lineEchart" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons">
+					<div class="tips1">App的用户量即为访问用户量，是打开过App的用户数量</div>				
+				</i>
+				<div class="stat">
+					<b>265,649</b>
+					<span>
+							<i>+15.5%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="lineEchart2" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons">
+						<div class="tips1">App的启动次数即为访问量（App切换到后台30秒之后重新打开会导致旧的访问结束，新的访问开始）</div>				
+					</i>
+				<div class="stat">
+					<b>738,504</b>
+					<span>
+							<i>+5.2%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="lineEchart3" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-else">
+					<div class="tips1" >App的登录用户量指在登录状态下使用过App的用户数量</div>
+					</i>
+				<div class="stat">
+					<b>235,269</b>
+					<span>
+							<i>+1.5%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="lineEchart4" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons">
+						<div class="tips1">App的新用户量即为新访问用户量</div>
+					</i>
+				<div class="stat">
+					<b>196</b>
+					<span>
+							<i>+12.5%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="lineEchart5" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-else">
+						<div class="tips1" >App的用户人均启动次数即为访问用户人均访问次数</div>				
+					</i>
+				<div class="stat">
+					<b>2.78</b>
+					<span>
+							<i>+8.4%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="lineEchart6" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-else">
+						<div class="tips1">App的新登录用户量指在登录状态下使用过App的新用户数量</div>				
+					</i>
+				<div class="stat">
+					<b>169</b>
+					<span>
+							<i>+5.3%</i><br />
+							相比7天前
+						</span>
+				</div>
+			</div>
+			<div class="box">
+				<div id="barEchart" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-next">
+						<div class="tips1">不同App版本用户量分布情况</div>						
+					</i>
+			</div>
+			<div class="box">
+				<div id="barEchart2" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-max">
+						<div class="tips1">在不同城市使用App的用户量分布情况</div>						
+					</i>
+			</div>
+			<div class="box">
+				<div id="barEchart3" class="my-echats"></div>
+				<i class="iconfont icon-wenhao icons-next">
+						<div class="tips1">不同设备型号的用户量分布情况</div>						
+					</i>
+			</div>
+			<div class="table">
+				<div class="table-head">
+					交易概况（本月）
+				</div>
+				<div class="table-content">
+					<div>
+						访客人数<br />
+						<span>4,023,269</span>						
+					</div>
+					<div>
+						下单人数<br />
+						<span>1,629,423</span>						
+					</div>
+					<div>
+						下单笔数<br />
+						<span>**</span>						
+					</div>
+					<div>
+						下单金额（元）<br />
+						<span>**</span>						
+					</div>
+					<div>
+						支付人数<br />
+						<span>1,440,330</span>
+					</div>
+					<div>
+						支付订单数<br />
+						<span>**</span>						
+					</div>
+					<div>
+						支付金额（元）<br />
+						<span>**</span>						
+					</div>
+					<div>
+						支付件数<br />
+						<span>**</span>						
+					</div>
+					<div>
+						客单价（元）<br />
+						<span>**</span>						
+					</div>
+					<div>
+						下单转化率<br />
+						40.5%
+					</div>
+					<div>
+						下单-支付转化率<br />
+						88.6%			
+					</div>
+					<div>
+						支付转化率<br />
+						35.8%				
+					</div>
+					<i>访客</i>
+					<i>下单</i>
+					<i>支付</i>
+				</div>
+			</div>
+		</aside>
+		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts-en.common.min.js"></script>
+		<script type="text/javascript" src="static/js/line.js"></script>
+		<script type="text/javascript" src="static/js/line2.js"></script>
+		<script type="text/javascript" src="static/js/bar.js"></script>
+		<script type="text/javascript" src="static/js/events.js"></script>
+	</body>
+
+</html>
